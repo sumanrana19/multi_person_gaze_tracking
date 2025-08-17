@@ -8,8 +8,9 @@ print("Imported mysql.connector successfully")
 try:
     test_conn = mysql.connector.connect(
         host='localhost',
-        user='root',
-        password='suman@5142',
+        #enter ur user id and password
+        user='',
+        password='',
         database='dualeye',
         connection_timeout=5
     )
@@ -520,3 +521,4 @@ def main():
 if __name__ == "__main__":
     print("[DEBUG] __main__ entry point triggered.")
     main()
+
